@@ -6,7 +6,7 @@ const Logo = ({ className = '', ...props }) => (
     <Link href="/">
       <a className="flex flex-initial items-center font-bold md:mr-24">
         <span className="mr-2">
-          <FireIcon className="block mr-2 w-10 text-blue-400" />
+          <FireIcon className="block mr-2 w-10" />
         </span>
         <span>wtfyaml</span>
       </a>
