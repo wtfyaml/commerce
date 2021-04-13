@@ -33,7 +33,7 @@ const ProductCard: FC<Props> = ({
           </div>
           {product?.images && (
             <Image
-              quality="85"
+              quality="100"
               src={product.images[0].url || placeholderImg}
               alt={product.name || 'Product Image'}
               height={320}
@@ -45,7 +45,6 @@ const ProductCard: FC<Props> = ({
         </div>
       ) : (
         <>
-          <div className={s.squareBg} />
           <div className="flex flex-row justify-between box-border w-full z-20 absolute">
             <div className="absolute top-0 left-0 pr-16 max-w-full">
               <h3 className={s.productTitle}>
@@ -73,7 +72,7 @@ const ProductCard: FC<Props> = ({
                 src={product.images[0].url || placeholderImg}
                 height={540}
                 width={540}
-                quality="85"
+                quality="100"
                 layout="responsive"
                 {...imgProps}
               />

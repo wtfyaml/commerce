@@ -250,8 +250,8 @@ export default function Search({
                   className="animated fadeIn"
                   product={product}
                   imgProps={{
-                    width: 480,
-                    height: 480,
+                    width: 240,
+                    height: 240,
                   }}
                 />
               ))}
